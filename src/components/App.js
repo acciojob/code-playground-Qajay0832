@@ -12,7 +12,7 @@ const App = () => {
     <div className='main-container'>
         {/* Do not remove the main div */}
         <BrowserRouter>
-        <p>{login?'Logged in,Now you can enter Playground':'You are not authenticated,Please login first'}</p>
+        <p>{login?'Logged in, Now you can enter Playground':'You are not authenticated, Please login first'}</p>
         <ul>
           <li><Link to='/playground'>PlayGround</Link></li>
           <li><Link to='/login'>Login</Link></li>
